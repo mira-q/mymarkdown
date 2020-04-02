@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>My myapp</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script src="https://www.gstatic.com/firebasejs/6.1.0/firebase-app.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase-firestore.js"></script>
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "REPLACE_ME_APIKEY",
+        authDomain: "REPLACE_ME_AUTHDOAMIN",
+        databaseURL: "REPLACE_ME_DATABASEURL",
+        projectId: "REPLACE_ME_PROJECTID",
+        storageBucket: "REPLACE_ME_STRAGEBUCKET",
+        messagingSenderId: "REPLACE_ME_MESSAGINGSENDERID",
+        appId: "REPLACE_ME_APPID",
+        measurementId: "REPLACE_ME_MEASUREMENTID"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+     </script>
+     <script src="./build.js"></script>
+  </body>
+</html>
